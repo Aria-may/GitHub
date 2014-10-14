@@ -1,0 +1,72 @@
+body{
+	background-color: black;
+    color: white;
+}
+
+#header {
+    background: black;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 5px 40px;
+    color: white;
+}
+
+#header a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#header a:hover{
+    opacity: 0.8;
+}
+
+#info, #code{
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.53);
+    width: 490px;
+    margin-top: 50px;
+    border-radius: 0 10px 10px 0;
+}
+
+#pname{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 20px;
+
+}
+
+#pinfo{
+    margin: 0;
+    font-size: 15px;
+}
+
+#link{
+    background: #CF0000;
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+    display: block;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#link:hover {
+background: #E90000;
+}
+
+#code{
+
+}
+
+#code pre{
+    margin: 0;
+font-size: 12px;
+font-family: "Lucida Console";
+}
